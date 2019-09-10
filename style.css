@@ -1,15 +1,11 @@
-* {
+body {
     background-color: white;
     font-family: Arial, sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
     padding: 0;
     margin: 0;
-        /*box-sizing: border-box;*/
-}
-
-body {
-    display: flex;
-  min-height: 100vh;
-  flex-direction: column;
 }
 
 .g-logo img  {
@@ -43,24 +39,24 @@ main {
     margin-bottom: auto;
 }
 
-main .g-logo {
+.g-logo {
     display: flex;
     justify-content: center;
 }
 
-main .searchbar {
+.searchbar {
     display: flex;
     justify-content: center;
 }
 
-main .searchbar input {
+.searchbar input {
     border-radius: 24px;
     height: 44px;
     border: 1px solid #dfe1e5;
     width: 482px;
 }
 
-main .searchbar input:hover {
+.searchbar input:hover {
     box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
     border: none;
 }
@@ -103,14 +99,13 @@ main .searchbar input:hover {
 .fbar * {
     background-color: rgb(242, 242, 242);
     line-height: 30px;
+    margin: 0;
 }
 
 
 
 .fbar li, .fbar p {
     padding: 8px 0px 8px 27px;
-    
-
 }
 
 .bottom-fbar {
@@ -126,16 +121,17 @@ main .searchbar input:hover {
     border-top: 1px solid #e4e4e4;
     font-size: 15px;
     opacity: 0.5;
-
 }
 
 .left-bottom-fbar ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding-left: 0;
 }
 .right-bottom-fbar ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding-left: 0;
 }
