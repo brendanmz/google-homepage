@@ -96,16 +96,15 @@ main {
 
 
 /* Footer bar */
-.fbar * {
+.fbar {
     background-color: rgb(242, 242, 242);
-    line-height: 30px;
-    margin: 0;
+    line-height: 10px;
 }
 
 
 
 .fbar li, .fbar p {
-    padding: 8px 0px 8px 27px;
+    padding: 0px 0px 0px 27px;
 }
 
 .bottom-fbar {
