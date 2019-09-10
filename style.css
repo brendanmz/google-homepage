@@ -13,16 +13,16 @@ body {
     padding-bottom: 20px;
 }
 
-a {
+.navlink {
     text-decoration: none;
     color: black;
 }
 
-a:hover {
+.navlink:hover {
     text-decoration: underline;
 }
 
-.navbar a:hover {
+.navbar .navlink:hover {
     color: rgba(0, 0, 0, 0.75)
 }
 
